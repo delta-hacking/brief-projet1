@@ -1,0 +1,98 @@
+/******************** Eléments principaux de la page *********************/
+
+
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+section h1, footer h1, nav a
+{
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+}
+
+/************************* Header ***************************/
+header
+{
+  display: outside;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: #FA8231;
+  padding: 0% 0%;
+} 
+.top-header
+{
+  width: 100%;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  display: contents;
+}
+
+/******************** logo ********************/
+ .logo
+ {
+   display: flex;
+   flex-direction: row;
+   align-items: normal;
+
+ }
+ .logo img
+{
+    width: 50px;
+    height: 10px;
+}
+/*********** Menu **********/
+nav ul
+{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav li
+{
+    margin-right: 0px;
+    padding: 0 30px;
+    ;
+    
+}
+
+nav a
+{
+    font-size: 1,1em;
+    color: rgb(7, 7, 7);
+    padding-bottom: 3px;
+    text-decoration: line;
+}
+
+nav a:hover
+{
+    color: #28094b;
+    text-transform: uppercase;
+}
+
+nav a:hover
+{
+    color: #28094b;
+    text-transform: none;
+}
+
+/*********** fin header ***********/
+
+/************** début de bannière ***************/
+.bgimage
+{
+ height: 500px;
+ width: 100%;
+ position: relative;
+ background-size: cover;
+}
+
+.description{
+
+}
