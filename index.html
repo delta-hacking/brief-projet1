@@ -1,44 +1,253 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
    <meta charset="UTF-8">
    <link rel="stylesheet" href="css/style.css" />
-   <title>Moroccan touch</title>
+   <title>Moroccan Touch</title>
 </head>
 
-<body>
-   <!---------- début header ---------->
+<body class="body">
+   <!----------début header---------->
    <header>
-      <div class="top-header">
-         <div class="logo-img">
-            <img src="images/logo.png" alt="logo" width="50px" />
+      <div class="main">
+         <div class="logo">
+            <img src="images/logo.png" alt="logo" width=3.5% height=3.5% />
+            <input type="search" placeholder="Search">
+
          </div>
-         <nav>
+         <div class="listheader">
+
             <ul>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">Help</a></li>
-               <li><a href="#">Deals</a></li>
-               <li><a href="#">Contact us</a></li>
-               <li><a href="#">Shop</a></li>
+               <li><a href="#Home">Home </a></li>
+               <li><a href="#help">Help </a></li>
+               <li><a href="#Deals">Deals </a></li>
+               <li><a href="#Contact">Contact us </a></li>
+               <li><a href="#Shop">Shop </a></li>
 
             </ul>
-         </nav>
+
+         </div>
       </div>
    </header>
    <!---------- fin header ---------->
 
    <!---------- début banniére ---------->
+
    <div class="bgimage">
-      <img src="images/background.jpg" alt="image"/>
+      <img src="images/bground1.jpg" alt="image" width="100%" height="30%" />
       <div class="description">
-      <h1>The best Moroccan products</h1>
+         <h1>The best Moroccan products</h1>
+      </div>
    </div>
+
    <!--------- fin banniére ---------->
 
+   <!-------- section & article -------->
+   <div class="products">
+      <div class="products-title">
+         <h2>About Our Products</h2>
+      </div>
+   </div>
+   <section class="s1">
+      <article class="container">
+         <h3>Rass el Hanout</h3>
+         <p><br>-mixture of the many spices
+            <br>-100% pure herbs and spices
+            <br>-no chemicals additives
+            <br>-gluten free</p>
+      </article>
+
+      <article class="container">
+         <h3>Lemon Confit</h3>
+         <p><br>- is an importat in much of
+            <br>Moroccan dishes
+            <br>- it consists of 3 ingredients
+            <br> (olive oil, salt & mineral water)</p>
+      </article>
+
+      <article class="container">
+         <h3>Saffron</h3>
+         <p><br>- 100% Pure organic
+            <br>- from dields of Taliouine, Morocco
+            <br>- Hand picked
+            <br>- (Taliouine Saffron is the finest
+            <br>saffron in the world)</p>
+      </article>
+
+      <article class="container">
+         <h3>Olive Oil</h3>
+         <p><br>-fragrant Olive Oil
+            <br>-100% oil natural
+            <br>-gluten free, GMO free
+            <br>and salt free
+      </article>
+
+      <article class="container">
+         <h3>Amlou</h3>
+         <p><br>-100% naturel artisanal product
+            <br>-consists on honey Argan Oil & almonds
+            <br>-spread made in Morocco
+            <br>-ideal for breakfast</p>
+      </article>
+
+      <article class="container">
+         <h3>Argan Oil</h3>
+         <p><br>-Moroccan Argan Oil is considered<br> to be one of the purest oils<br> in the world
+            <br>-100% Pure Organically Grown <br>Argan Oil</p>
+      </article>
+
+   </section>
+   <div class="button1">
+         <button type="button">see more</button>
+   </div>
+
+   <!------------- section 2 ----------------->
+   <section class="sec">
+
+      <h2 class="products-title">Moroccan Touch</h2>
+
+      <div id="content">
+         <img src="images/who.jpg" alt="photo" />
+
+         <aside>
+            <h4>Who are we?</h4>
+            <p>Moroccan Touch is a company that has partnerships with more than one cooperative, specialized in
+               producing Moroccan compositions of spices, oils, saffron, couscous ....
+               The Moroccan Touch was created in 2019. Its goal is to provide and sell good and exotic products that
+               contributed to the creation of famous Moroccan dishes
+               All products shown on the site from the nature.
+               With a Moroccan twist, you can add different flavors to your cooking.</p>
+         </aside>
+      </div>
+
+   </section>
+   
+
+   <!---------------dernière section --------------->
+   <h2 class="products-title"> Price of our products</h2>
+   <section class="final-sec">
+      <article class="s2">
+         <img src="images/rass-elhanout.jpg" alt="Photo" />
+         <div class="price">
+            <h5>Rass el Hanout</h5>
+            <p>13,19€ for 150g</p>
+         </div>
+      </article>
+
+      <article class="s2">
+         <img src="images/citron.jpg" alt="Photo" />
+         <div class="price">
+            <h5>Confit Lemon</h5>
+            <p>14;14 € for 250g </p>
+         </div>
+      </article>
+
+      <article class="s2">
+         <img src="images/safran.jpg" alt="Photo" />
+         <div class="price">
+            <h5>Saffron</h5>
+            <p>9,42€ for 2g </p>
+         </div>
+      </article>
+   </section>
+   <section class="final-sec">
+
+      <article class="s2">
+         <img src="images/huil-dolive.jpg" alt="Photo" />
+         <div class="price">
+            <h5>Olive Oil</h5>
+            <p>8,48€ for 500 ML</p>
+         </div>
+      </article>
+
+      <article class="s2">
+         <img src="images/amlou.jpg" alt="Photo" />
+         <div class="price">
+            <h5>Amlou</h5>
+            <p>11,31€ for 250g </p>
+         </div>
+      </article>
+
+      <article class="s2">
+         <img src="images/argan.jpg" alt="Photo" />
+         <div class="price">
+            <h5>Argan oil</h5>
+            <p>23,56€ 120 ML </p>
+         </div>
+      </article>
+   </section>
+   <div class="more">
+         <button type="button">see more</button>
+   </div>
+<!-------------------------- début de footer ------------------------>
+<footer>
+      <div class="footer">
+      <!--------------- first column ----------------->
+   <div class="question">
+      <h5>Question</h5>
+      <p>Ask us a question</p>
+      <form>
+         <input type="text">
+      </Form>
+         <form action=""></form><button type="reset">Send</button></form>
+            
+   </div>
+       <!----------------second column---------------->
+   <div class="add">
+      <h5>Adress</h5>
+   
+      <div class="info">
+         <p><img src="images/adress.png" alt="icon" width="25px" height="25px" />
+         <span>Marjana housing estate, Al Andalus street N°16. MARRAKECH</span></p>
+      </div>
+   
+      <div class="info">
+         <p><img src="images/phone.png" alt="icon" width="25px" height="25px" />
+         <span>+212612123456</span></p>
+      </div>
+   
+       <div class="info">
+         <p> <img src="images/email.png" alt="icon" width="25px" height="25px" />
+         <span>moroccantouch@gmail.com</span></p>
+      </div>
+   </div>
+   
+       <!------------------- final column-------------------->
+   <div class="newsletter">
+      
+      <h4>Newsletter</h4>
+         <form action="">
+            <input type="text" placeholder="moroccantouch@gmail.com" />
+         </form>
+         <div>
+             <button type="button">subscribe</button>
+         </div>
+   
+         <div class="social-container">
+            <div>
+               <img src="images/fb.png" alt="icon" width="34px" height="32px" />
+            </div>
+   
+            <div>
+                <img src="images/insta.png" alt="icon" width="34px" height="32px" />
+            </div>
+   
+            <div>
+               <img src="images/pinterest.png" alt="icon" width="35px" height="34px" />
+            </div>
+   
+         </div>
+   
+   </div>
+      </div>
+      <div class="copyright">
+         <p>copyright @2020 all rights reserved by Wafaa SBAIS</p>
+      </div>
+   </footer>    
+
+  
 
 </body>
-
 </html>
 
-<head>
